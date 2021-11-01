@@ -4,15 +4,6 @@
 
 class Solution:
     def climbStairs(self, n: int) -> int:
-        # while n > 0:
-        #     if n >= 2:
-        #         n -= 2
-        #         count += 2
-        #     elif n == 1:
-        #         count += 1
-        #         n -= 1
-        # print(count)
-        # return count
         a = b = 1
         for i in range(n):
             a, b = b, a+b
