@@ -16,3 +16,4 @@ class Solution:
                 result[head] = True
                 head = head.next
         return False
+        
